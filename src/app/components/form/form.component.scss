@@ -59,3 +59,7 @@ button:hover
 {
 	background: #109177;
 }
+button:disabled
+{
+	background: gray;
+}
