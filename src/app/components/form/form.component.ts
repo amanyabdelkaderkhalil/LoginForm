@@ -25,6 +25,7 @@ export class FormComponent {
         });
     }
     onSubmit() {
+        localStorage.clear();
         let name = this.form.get('name').value;
         let password = this.form.get('password').value;
         this.loginData = new LoginData(name, password);
